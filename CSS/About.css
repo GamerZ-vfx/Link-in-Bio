@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 50px;
+}
+
+.backbtn{
+    display: block;
+    background-color: rgb(184, 184, 184);
+    position: relative;
+    width: 100px;
+    height: 30px;
+    top: 7em;
+    left: 8em;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.backbtn:hover{
+    background-color: rgb(230, 54, 54);
+    color: wheat;
+ 
+    
+}
+
+h1 {
+    padding-left: 7rem;
+    padding-bottom: 0.7em;
+    padding-top: 7rem;
+}
+
+p {
+    margin-left: 7em;
+    max-width: 50%;
+
+}
+
+
+img {
+    position: relative;
+    top: 2em;
+    left: 7em;
+    width: 5em;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+img:hover {
+    position: relative;
+    transform: scale(1.2);
+    opacity: 90%;
+}
+
+a:hover {
+    transition: 0.1s;
+    color: rgb(255, 51, 0);
+
+
+}
+
